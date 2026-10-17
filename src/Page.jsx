@@ -1,0 +1,36 @@
+// Markup of the invitation (converted from the original page).
+export default function Page() {
+  return (
+    <>
+
+
+
+<div id="opening"><video id="opening-video" playsInline preload="metadata" muted poster="assets/video-poster.jpg"><source src="opening-video.mp4" type="video/mp4" /></video><div id="tap-hint"><div className="tap-ring"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 4L20 12L6 20V4Z" fill="rgba(200,155,60,0.92)"></path></svg></div><span className="tap-label">Tap to Open</span></div></div>
+
+
+
+<div id="petal-layer"></div>
+
+<div id="sparkle-layer"></div>
+
+
+
+<button id="music-control" aria-label="Toggle music"><svg className="disc" id="discIcon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="#C89B3C" strokeWidth="1.3"></circle><circle cx="12" cy="12" r="2.4" fill="#C89B3C"></circle></svg></button>
+
+
+
+<div id="site"><section id="hero" className="banner-section"><img className="banner-img" src="assets/hero.png" alt="Fathima Hanna and Shanu Farhan Nikkah invitation" /><div className="scroll-cue"><span>Scroll</span><div className="scroll-arrow"></div><div className="scroll-arrow-2"></div></div></section><section className="section paper-texture" id="couple"><div className="container couple-wrap"><div className="couple-arabic" data-fade="">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div><p className="couple-sub" data-fade="">Together with our families, we request the honour<br className="hide-mobile" />{" of your presence at our Nikkah Ceremony"}</p><h2 className="couple-names" data-fade="">{" Fathima Hanna "}<span className="couple-amp" data-fade="">♡</span>{" Shanu Farhan "}</h2><div className="couple-role" data-fade="">Nikkah Ceremony  ·  Sunday, 06 September 2026</div></div></section><section className="section paper-texture" id="details"><div className="container"><div className="section-head"><div className="eyebrow">Join Us</div><h2 className="section-title">Wedding Details</h2><div className="detail-divider"></div></div><div className="details-countdown" data-fade=""><div className="hero-countdown"><div className="hc-unit"><div className="hc-num" id="hc-days">--</div><div className="hc-label">Days</div></div><div className="hc-sep">:</div><div className="hc-unit"><div className="hc-num" id="hc-hours">--</div><div className="hc-label">Hours</div></div><div className="hc-sep">:</div><div className="hc-unit"><div className="hc-num" id="hc-mins">--</div><div className="hc-label">Mins</div></div><div className="hc-sep">:</div><div className="hc-unit"><div className="hc-num" id="hc-secs">--</div><div className="hc-label">Secs</div></div></div></div><div className="details-grid"><div className="detail-card" data-fade=""><div className="detail-icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="16" rx="2" stroke="#C89B3C" strokeWidth="1.3"></rect><path d="M3 10H21" stroke="#C89B3C" strokeWidth="1.3"></path><path d="M8 3V7M16 3V7" stroke="#C89B3C" strokeWidth="1.3" strokeLinecap="round"></path></svg></div><div className="detail-label">Date</div><div className="detail-main">Sunday</div><div className="detail-sub">06 September 2026</div></div><div className="detail-card" data-fade=""><div className="detail-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22C12 22 19 14.6 19 9.5C19 5.36 15.64 2 12 2C8.36 2 5 5.36 5 9.5C5 14.6 12 22 12 22Z" stroke="#C89B3C" strokeWidth="1.3"></path><circle cx="12" cy="9.5" r="2.5" stroke="#C89B3C" strokeWidth="1.3"></circle></svg></div><div className="detail-label">Venue</div><div className="detail-main">Cipex Auditorium</div><div className="detail-sub">Mukkathakadavu Road, Kozhikode, Kerala 673328</div></div></div><div className="map-cta" data-fade=""><a className="gold-btn" href="https://maps.app.goo.gl/3QBYMdFUuCAeLQwz9" target="_blank" rel="noopener"><span><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M12 22C12 22 19 14.6 19 9.5C19 5.36 15.64 2 12 2C8.36 2 5 5.36 5 9.5C5 14.6 12 22 12 22Z" stroke="currentColor" strokeWidth="1.5"></path><circle cx="12" cy="9.5" r="2.5" stroke="currentColor" strokeWidth="1.5"></circle></svg>{" View Location "}</span></a></div></div></section><section className="banner-section" id="location"><a href="https://maps.app.goo.gl/3QBYMdFUuCAeLQwz9" target="_blank" rel="noopener" style={{ display: "block", cursor: "pointer" }}><img className="banner-img" src="assets/Location.png" alt="Cipex Auditorium location map - Click to open in Google Maps" /></a></section><section className="section" id="timeline-section"><div className="container"><div className="section-head"><div className="eyebrow">{"The Day's Journey"}</div><h2 className="section-title">Event Timeline</h2><div className="detail-divider"></div></div><div className="timeline"><div className="tl-item" data-fade=""><div className="tl-dot"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2L14.5 9H21.5L15.5 13.5L18 20.5L12 16L6 20.5L8.5 13.5L2.5 9H9.5L12 2Z" fill="currentColor"></path></svg></div><div className="tl-title">Arrival of Guests</div><div className="tl-desc">Warm welcome and refreshments as our beloved guests begin to arrive at Cipex Auditorium.</div></div><div className="tl-item" data-fade=""><div className="tl-dot"><svg viewBox="0 0 24 24" fill="none"><circle cx="8" cy="12" r="5" stroke="currentColor" strokeWidth="1.5"></circle><circle cx="16" cy="12" r="5" stroke="currentColor" strokeWidth="1.5"></circle></svg></div><div className="tl-title">Nikkah Ceremony</div><div className="tl-desc">{"The sacred union of Fathima Hanna & Shanu Farhan, blessed by both families."}</div></div><div className="tl-item" data-fade=""><div className="tl-dot"><svg viewBox="0 0 24 24" fill="none"><path d="M4 10H20M4 10C4 10 5 4 12 4C19 4 20 10 20 10M4 10L3 20H21L20 10" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round"></path></svg></div><div className="tl-title">Dinner</div><div className="tl-desc">A festive banquet celebrating the newly wed couple with family and friends.</div></div><div className="tl-item" data-fade=""><div className="tl-dot"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="18" height="13" rx="2" stroke="currentColor" strokeWidth="1.5"></rect><circle cx="12" cy="12.5" r="3.5" stroke="currentColor" strokeWidth="1.5"></circle><path d="M8 6L9.5 3.5H14.5L16 6" stroke="currentColor" strokeWidth="1.5"></path></svg></div><div className="tl-title">Photo Session</div><div className="tl-desc">Cherished moments captured with the newlyweds — join us for a photograph!</div></div></div></div></section><section className="section" id="blessings"><div className="container"><div className="blessing-card" data-fade=""><div className="blessing-mark">{"\""}</div><div className="blessing-quote">Your presence and blessings will make our special day even more memorable.</div><div className="blessing-attr">{"— Fathima & Shanu"}</div></div></div></section></div>
+
+
+
+<footer id="footer" className="banner-section"><img className="banner-img" src="assets/footer.jpg" alt="Be our guest — thank you" /><div className="footer-credit">Made with ♡</div></footer>
+
+<audio id="bgMusic" src="assets/Ishqa-Ve-Mp3-Song-by-Zeeshan-Ali(PagalWorldi.com.co).mp3" loop preload="auto"></audio>
+
+
+
+
+
+    </>
+  )
+}
